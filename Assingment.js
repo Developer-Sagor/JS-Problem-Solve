@@ -69,3 +69,24 @@ console.log(totalHotelCost);
 
 
 // megaFriend
+function megaFriend() {
+
+
+    var arr = ['sagorkhan', 'Riponkhanarif', 'ArafatAlikhanSagor', 'MohammadArafatAliKhanSagor', 'Arif'];
+
+
+    var lgth = 0;
+
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i].length > lgth) {
+            var lgth = arr[i].length;
+            longest = arr[i];
+        }
+    }
+    return longest;
+
+
+}
+
+var result = megaFriend();
+console.log(longest);
